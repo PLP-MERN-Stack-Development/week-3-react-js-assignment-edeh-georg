@@ -22,7 +22,7 @@ const Card = ({
   ...rest
 }) => {
   // Base classes
-  const baseClasses = 'bg-white dark:bg-gray-800 rounded-lg transition-all duration-200';
+  const baseClasses = 'bg-white dark:bg-gray-800 rounded-2xl transition-all duration-200 w-[60vw] mx-auto';
   
   // Variant classes
   const variantClasses = {
@@ -47,15 +47,16 @@ const Card = ({
       {...rest}
     >
       {title && (
-        <div className="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
+        <div className="px-4 py-3 border-b border-gray-200 dark:border-gray-700">
           <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
             {title}
           </h3>
         </div>
       )}
-      <div className={title ? "p-6" : "p-6"}>
+      <div className={title ? "p-4" : "p-4"}>
         {children}
       </div>
+      <div className="mb-4" />
     </div>
   );
 };

@@ -11,9 +11,10 @@ const Home = () => {
   const features = [
     {
       title: 'Task Management',
-      description: 'Create, edit, and organize your tasks with an intuitive interface. Mark tasks as complete and track your progress.',
+      description: 'create'//'Create, edit, and organize your tasks with an intuitive interface. Mark tasks as complete and track your progress.'
+      ,
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
         </svg>
       ),
@@ -24,7 +25,7 @@ const Home = () => {
       title: 'API Integration',
       description: 'Explore data fetching with our API integration demo. Features search, pagination, and error handling.',
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
       ),
@@ -35,7 +36,7 @@ const Home = () => {
       title: 'Modern UI/UX',
       description: 'Built with React, Tailwind CSS, and modern design principles. Includes dark mode and responsive design.',
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
         </svg>
       ),

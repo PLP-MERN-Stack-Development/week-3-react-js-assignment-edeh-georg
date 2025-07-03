@@ -3,6 +3,9 @@
 
 This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
 
+## Deployment url
+week-3-react-js-assignment-edeh-geo.vercel.app
+
 ## Assignment Overview
 
 You will:

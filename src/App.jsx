@@ -1,6 +1,5 @@
 import { useState, createContext, useContext } from 'react';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import './App.css';
 
 // Import components
 import Button from './components/Button';
